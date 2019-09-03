@@ -12,16 +12,6 @@
 				<!-- Header -->
 					<header>
 
-
-							<!-- <nav class="mx-auto navbar navbar-light">
-							  <a class="navbar-brand" href="index.php">
-									<div class="align-middle">
-								    <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
-										<div class="d-inline-block align-top title-text">Politi-bot</div>
-									</div>
-							  </a>
-							</nav> -->
-
 							<div class="container">
 
 							<nav class="navbar navbar-expand-sm navbar-light bg-faded">
@@ -57,31 +47,8 @@
 
 							</div>
 
-							<!-- Logo -->
-								<!-- <a href="index.php" class="logo">
-									<span class="symbol"><img src="images/politilogo.svg" alt="" /></span><span class="title">Politi-bot</span> -->
-								<!-- </a> -->
-							<!-- Nav -->
-								<!-- <nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav> -->
 						<?php	include('core/database/connection.php'); ?>
 
 					</header>
 
 					<body>
-
-				<!-- Menu -->
-					<!-- <nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="about.php">About</a></li>
-							<li><a href="contact.php">Contact</a></li>
-              <li><a href="contact.php">Request bot</a></li>
-              <li><a href="test.php">Test</a></li>
-
-						</ul>
-					</nav> -->
