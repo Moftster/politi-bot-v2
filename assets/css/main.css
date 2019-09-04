@@ -9,6 +9,11 @@
 		src: url('../fonts/earthorbiter.ttf');
 	}
 
+	@font-face {
+		font-family: 'dimitri';
+		src: url('../fonts/DIMITRI_.TTF');
+	}
+
 	.btn {
 		margin: 5px;
 	}
@@ -148,4 +153,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.header-text {
+	text-align: center;
+	font-family: 'alien-league';
 }
