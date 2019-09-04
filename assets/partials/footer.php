@@ -1,13 +1,14 @@
 
   <footer id="footer">
       <section>
-        <h2>Follow</h2>
-        <ul class="icons">
-          <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-          <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
+        <hr />
+          <div class="text-center center-block">
+            <a href="https://twitter.com/Moftster"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://github.com/Moftster/politi-bot-v2"><i class="fab fa-github-square fa-3x"></i></a>
+           </div>
+           <div class="footer-copyright text-center py-3">© 2019 Copyright: David Moftakhar
+           </div>
+           <hr />
       </section>
   </footer>
 
