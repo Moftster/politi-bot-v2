@@ -158,4 +158,9 @@
 .header-text {
 	text-align: center;
 	font-family: 'alien-league';
+	color: black !important;
+}
+
+.header-text a:link{
+	color: black !important;
 }

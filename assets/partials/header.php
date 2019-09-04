@@ -39,7 +39,7 @@
 		</div>
 	</div>
 	<div class="header-text">
-			<h1>Politi-bot</h1>
+			<a class="navbar-brand" href="index.php"><h1>Politi-bot</h1></a>
 	</div>
 
 
