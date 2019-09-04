@@ -16,15 +16,15 @@
                         <div class="col-md-3">
                           <div class="form-group">
                             <div class="snippet">
-                              <input type="button" class="btn" value="Immigration" onclick=play('audio1')>
+                              <input type="button" class="btn btn-lg" value="Immigration" onclick=play('audio1')>
                               <audio id="audio1" src="assets/sounds/Corbyn/immigration.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Labour" onclick=play('audio2')>
+                              <input type="button" class="btn btn-lg" value="Labour" onclick=play('audio2')>
                               <audio id="audio2" src="assets/sounds/Corbyn/labour.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Tax" onclick=play('audio3')>
+                              <input type="button" class="btn btn-lg" value="Tax" onclick=play('audio3')>
                               <audio id="audio3" src="assets/sounds/Corbyn/tax.wav"><audio>
                             </div>
                           </div>

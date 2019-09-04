@@ -17,15 +17,15 @@
                           <div class="form-group">
 
                             <div class="snippet">
-                              <input type="button" class="btn" value="&quot;Deal&quot;" onclick=play('audio2')>
+                              <input type="button" class="btn btn-lg" value="&quot;Deal&quot;" onclick=play('audio2')>
                               <audio id="audio2" src="assets/sounds/Johnson/deal.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="&quot;Ping-pong&quot;" onclick=play('audio3')>
+                              <input type="button" class="btn btn-lg" value="&quot;Ping-pong&quot;" onclick=play('audio3')>
                               <audio id="audio3" src="assets/sounds/Johnson/ping-pong.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="&quot; ...and ...&quot;" onclick=play('audio1')>
+                              <input type="button" class="btn btn-lg" value="&quot; ...and ...&quot;" onclick=play('audio1')>
                               <audio id="audio1" src="assets/sounds/Johnson/and.wav"><audio>
                             </div>
                           </div>

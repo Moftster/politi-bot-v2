@@ -16,15 +16,15 @@
                         <div class="col-md-3">
                           <div class="form-group">
                             <div class="snippet">
-                              <input type="button" class="btn" value="Battle of Britain" onclick=play('audio1')>
+                              <input type="button" class="btn btn-lg" value="Battle of Britain" onclick=play('audio1')>
                               <audio id="audio1" src="assets/sounds/churchill/battle-britain.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="We shall fight" onclick=play('audio2')>
+                              <input type="button" class="btn btn-lg" value="We shall fight" onclick=play('audio2')>
                               <audio id="audio2" src="assets/sounds/churchill/fight.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Hitler" onclick=play('audio3')>
+                              <input type="button" class="btn btn-lg" value="Hitler" onclick=play('audio3')>
                               <audio id="audio3" src="assets/sounds/churchill/hitler.wav"><audio>
                             </div>
                           </div>

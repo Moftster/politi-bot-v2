@@ -18,6 +18,10 @@
 		margin: 5px;
 	}
 
+	.btn:hover {
+		background-color: grey;
+	}
+
 	.zoom {
 		transition: all 1s;
 		transform: scale(1);
@@ -168,5 +172,10 @@
 .fab {
 	margin-right: 8px;
 	margin-left: 8px;
-	color: black;
+	color: grey;
+}
+
+.snippet {
+	font-family: 'earth-orbiter';
+	font-size: 20px !important;
 }

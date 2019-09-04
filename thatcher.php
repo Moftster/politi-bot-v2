@@ -16,15 +16,15 @@
                         <div class="col-md-3">
                           <div class="form-group">
                             <div class="snippet">
-                              <input type="button" class="btn" value="Iron Lady" onclick=play('audio1')>
+                              <input type="button" class="btn btn-lg" value="Iron Lady" onclick=play('audio1')>
                               <audio id="audio1" src="assets/sounds/thatcher/ironlady.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Nonsense" onclick=play('audio2')>
+                              <input type="button" class="btn btn-lg" value="Nonsense" onclick=play('audio2')>
                               <audio id="audio2" src="assets/sounds/thatcher/nonsense.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Not for turning" onclick=play('audio3')>
+                              <input type="button" class="btn btn-lg" value="Not for turning" onclick=play('audio3')>
                               <audio id="audio3" src="assets/sounds/thatcher/not-turning.wav"><audio>
                             </div>
                           </div>
