@@ -14,21 +14,63 @@
 
 							<div class="container">
 
-							<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+							<!-- <nav class="navbar navbar-expand-sm navbar-light bg-faded">
 								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 								</button>
 
 								<!-- Brand -->
-								<div class="justify-content-center">
+								<!-- <div class="justify-content-center">
 								<a class="navbar-brand" href="index.php">
 							 		 <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
 							 		 <div class="d-inline-block align-top title-text">Politi-bot</div>
 							  </a>
-							</div>
+							</div> -->
 
-								<!-- Links -->
-								<div class="collapse navbar-collapse justify-content-end" id="nav-content">
+								<!-- NAVBAR -->
+
+
+  <!-- Centered link -->
+	<div class="topnav">
+  <div class="topnav-centered">
+		<a class="navbar-brand" href="index.php">
+			 <img src="images/politilogo.svg" class="d-inline-block align-top" height="80" alt="">
+		</a>
+	</div>
+</div>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="collapse navbar-collapse listitems justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+				<a class="nav-link" href="about.php">About</a>
+      </li>
+      <li class="nav-item">
+				<a class="nav-link" href="contact.php">Contact</a>
+      </li>
+      <li class="nav-item">
+				<a class="nav-link" href="about.php">Request bot</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+	<!-- <nav class="navbar">
+
+		<!-- <div class="topnav navbar-cen">
+		  <div class="row">
+				<a href="about.php">About</a>
+				<a href="contact.php">Contact</a>
+				<a href="request-bot.php">Request bot</a>
+		  </div>
+
+		</div> -->
+
+<!-- </nav> -->
+
+
+								<!-- <div class="collapse navbar-collapse justify-content-end" id="nav-content">
 								<ul class="navbar-nav">
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -43,7 +85,7 @@
 								</li>
 								</ul>
 								</div>
-								</nav>
+								</nav> -->
 
 							</div>
 

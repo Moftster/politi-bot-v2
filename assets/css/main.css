@@ -1,4 +1,14 @@
 
+	@font-face {
+		font-family: 'alien-league';
+		src: url('../fonts/alienleaguebold.ttf');
+	}
+
+	@font-face {
+		font-family: 'earth-orbiter';
+		src: url('../fonts/earthorbiter.ttf');
+	}
+
 	.btn {
 		margin: 5px;
 	}
@@ -39,9 +49,9 @@
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 		color: white;
-		font-family: 'Amatic SC', cursive;
+		font-family: 'earth-orbiter';
 		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-		font-size: 1.5em;
+		font-size: 1.6em;
 
 	}
 
@@ -71,3 +81,80 @@
 			color: white;
 			text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 		}
+
+/* NAVIGATION BAR */
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+	height: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+	font-family: 'alien-league';
+  padding: 14px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* LIST ITEMS */
+
+.listitems a {
+  float: center;
+  color: black;
+  text-align: center;
+	font-family: 'alien-league';
+  padding: 14px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.listitems a:hover {
+  color: grey;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: grey;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: right;
+    display: block;
+		font-size: 15px;
+  }
+
+  .topnav-centered a {
+		float: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+  }
+}
