@@ -141,20 +141,3 @@
 .topnav-right {
   float: right;
 }
-
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: right;
-    display: block;
-		font-size: 15px;
-  }
-
-  .topnav-centered a {
-		float: none;
-	  position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-  }
-}

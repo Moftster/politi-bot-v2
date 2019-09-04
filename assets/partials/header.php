@@ -32,14 +32,19 @@
 
   <!-- Centered link -->
 	<div class="topnav">
-  <div class="topnav-centered">
-		<a class="navbar-brand" href="index.php">
-			 <img src="images/politilogo.svg" class="d-inline-block align-top" height="80" alt="">
-		</a>
+	  <div class="topnav-centered">
+				<a class="navbar-brand" href="index.php">
+					 <img src="images/politilogo.svg" class="d-inline-block align-top" height="80" alt="">
+				</a>
+		</div>
 	</div>
-</div>
 
-<nav class="navbar navbar-expand-lg">
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
   <div class="collapse navbar-collapse listitems justify-content-center" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
