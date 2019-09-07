@@ -17,7 +17,7 @@
                             </div>
 
                             <div class="form-group">
-                              <input class="snippet" type="text" class="form-control" name="request" placeholder="Who's missing?">
+                              <input id="request" class="snippet" type="text" class="form-control" name="request" placeholder="Who's missing?">
                             </div>
 
                             <div class="form-group">

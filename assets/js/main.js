@@ -27,11 +27,9 @@ form.addEventListener('submit', testSubmit)
 
 function testSubmit(e){
   e.preventDefault();
-
   var userName = document.getElementById('userName').value;
-
-  console.log(userName);
-
+  var request = document.getElementById('request').value;
+  window.location.href(`mailto:david@sellmysnaps.com?subject=Politi-bot request&body=Hi,%0D%0A%0D%0AI\'d like to request ${request} as a Politi-bot.%0D%0A%0D%0AThanks,%0D%0A%0D%0A${userName}`);
 }
 
 //
