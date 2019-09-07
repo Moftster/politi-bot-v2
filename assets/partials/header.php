@@ -100,7 +100,7 @@
 
 							</div>
 
-						<?php	include('core/database/connection.php'); ?>
+						<?php	// include('core/database/connection.php'); ?>
 
 					</header>
 
