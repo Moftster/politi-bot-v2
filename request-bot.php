@@ -21,7 +21,7 @@
                             </div>
 
                             <div class="form-group">
-                              <button type="submit" class="snippet" name="insert" class="form-control">Send</button>
+                              <button type="submitBot" class="snippet" name="insert" class="form-control">Send</button>
                             </div>
 
                         </form>
@@ -34,5 +34,6 @@
         </div>
       </div>
 
+<script src="assets/js/request.js"></script>
 
   <?php include('assets/partials/footer.php'); ?>
