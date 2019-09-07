@@ -8,31 +8,21 @@
 
                   <div class="row">
                       <div class="col-md-6">
-                        <form action="core/database/request.php" method="POST">
+                        <form>
 
-                          <h2 class="form-group">Suggest a Politi-bot</h2>
+                          <h2 class="form-header form-group">Request a Politi-bot</h2>
 
-                          <?php
+                            <div class="form-group">
+                              <input class="snippet" type="text" class="form-control" name="user-name" placeholder="Your name">
+                            </div>
 
-                          if(isset($_GET['msg'])) {
+                            <div class="form-group">
+                              <input class="snippet" type="text" class="form-control" name="request" placeholder="Who's missing?">
+                            </div>
 
-                          echo "<p class='text-danger'>" . $_GET['msg'] . "</p>";
-
-                          }
-
-                          ?>
-
-                          <div class="form-group">
-                          <input type="text" class="form-control" name="request" placeholder="Who's missing?">
-                          </div>
-
-                          <div class="form-group">
-                          <input type="email" class"form-control" name="email" placeholder="Your email address">
-                          </div>
-
-                          <div class="form-group">
-                          <button type="submit" name="insert" class="form-control">Submit</button>
-                          </div>
+                            <div class="form-group">
+                              <button type="submit" onclick="sendMail()" class="snippet" name="insert" class="form-control">Send</button>
+                            </div>
 
                         </form>
                       </div>
@@ -41,11 +31,5 @@
         </div>
       </div>
 
-
-<script>
-
-
-
-</script>
 
   <?php include('assets/partials/footer.php'); ?>

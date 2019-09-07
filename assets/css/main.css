@@ -172,10 +172,15 @@
 .fab {
 	margin-right: 8px;
 	margin-left: 8px;
-	color: grey;
+	color: black;
 }
 
 .snippet {
 	font-family: 'earth-orbiter';
 	font-size: 20px !important;
+}
+
+.form-header {
+	font-family: 'alien-league';
+	color: black !important;
 }
