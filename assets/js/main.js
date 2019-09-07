@@ -22,9 +22,9 @@ function play(element) {
 
 var form = document.getElementById('theForm');
 
-form.addEventListener('submit', testSubmit);
+form.addEventListener('submit', submitRequest);
 
-function testSubmit(e){
+function submitRequest(e){
   e.preventDefault();
   var userName = document.getElementById('userName').value;
   var request = document.getElementById('request').value;
