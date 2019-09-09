@@ -195,3 +195,49 @@
 	font-family: 'alien-league';
 	color: black !important;
 }
+
+@media only screen and (max-width: 786px) {
+	.img-wrap img{
+		transition: all 1s;
+		position: relative;
+		opacity: 0.6;
+	}
+
+	.img-text {
+		position: absolute;
+		text-align: center;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: black;
+		font-family: 'earth-orbiter';
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+		font-size: 1.2em;
+		visibility: visible;
+		-webkit-opacity: 1;
+		opacity: 1 !important;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.img-wrap img{
+		transition: all 1s;
+		position: relative;
+		opacity: 0.6;
+	}
+
+	.img-text {
+		position: absolute;
+		text-align: center;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: black;
+		font-family: 'earth-orbiter';
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+		font-size: 1.6em;
+		visibility: visible;
+		-webkit-opacity: 1;
+		opacity: 1 !important;
+	}
+}
