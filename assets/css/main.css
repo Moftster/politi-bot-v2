@@ -22,18 +22,38 @@
 		background-color: grey;
 	}
 
-	.zoom {
-		transition: all 1s;
-		transform: scale(1);
-		position: relative;
-		text-align: center;
-		color: white !important;
 
+	.img-text {
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: black;
+		font-family: 'earth-orbiter';
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+		font-size: 2em;
+		opacity: 0;
 	}
 
-	.zoom:hover {
+	.img-wrap {
+		transition: all 1s;
+		position: relative;
+		opacity: 0.9;
+	}
+
+	.img-wrap:hover img{
+		transition: all 1s;
 		transform: scale(1.2);
-		opacity: 0.4;
+		opacity: 0.3;
+		color: black;
+	}
+
+	.img-wrap:hover .img-text {
+		transition: all 1.5s;
+		visibility: visible;
+		-webkit-opacity: 1;
+		opacity: 1 !important;
 	}
 
 	.home-margin{
@@ -53,17 +73,7 @@
 		text-align: center;
 	}
 
-	.centered {
-	  position: absolute;
-	  top: 70%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-		color: white;
-		font-family: 'earth-orbiter';
-		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-		font-size: 1.6em;
 
-	}
 
 	.form-group {
 		margin-top: 30px;
