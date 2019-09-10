@@ -14,6 +14,18 @@
 		src: url('../fonts/DIMITRI_.TTF');
 	}
 
+	.robo-text {
+		font-family: 'roboto';
+		font-weight: 400;
+	}
+
+	.questions {
+		font-weight: bold;
+		padding: 5px;
+		
+
+	}
+
 	.btn {
 		margin: 5px;
 	}
