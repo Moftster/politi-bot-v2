@@ -1,8 +1,26 @@
+var currentPlayer;
+
 function play(element) {
-  var audio = document.getElementById(element);
-  audio.currentTime = 0;
-  audio.play();
+    var audio = document.getElementById(element);
+
+ if(currentPlayer && currentPlayer != audio) {
+      currentPlayer.pause();
+ }
+   if (audio.paused)
+      audio.play();
+
+   else
+      audio.play();
+      audio.currentTime = 0;
+      currentPlayer = audio;
 }
+
+
+// function play(element) {
+//   var audio = document.getElementById(element);
+//   audio.currentTime = 0;
+//   audio.play();
+// }
 
 // const onClick = document.addEventListener('click', playSound);
 
