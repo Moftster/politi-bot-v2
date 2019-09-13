@@ -20,7 +20,7 @@
                               <audio id="audio2" src="assets/sounds/obama/obama2.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn btn-lg" value="Beeer and drugs" onclick=play('audio1')>
+                              <input type="button" class="btn btn-lg" value="Beer and drugs" onclick=play('audio1')>
                               <audio id="audio1" src="assets/sounds/obama/beer-drugs.wav"><audio>
                             </div>
                             <div class="snippet">
